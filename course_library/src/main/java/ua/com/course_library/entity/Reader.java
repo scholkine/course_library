@@ -19,6 +19,9 @@ public class Reader {
     private Long id;
     private String firstName;
     private String lastName;
+    private int phone;
+    private int age;
+    private String email;
     @OneToMany(mappedBy = "reader")
     private List<Abonenment> abonenmentList;
 }

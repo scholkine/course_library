@@ -2,8 +2,6 @@ package ua.com.course_library.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-
-import java.util.List;
 import java.util.Set;
 
 @Setter
@@ -22,5 +20,5 @@ public class Role {
     private String description;
     public String permissions;
     @ManyToMany(mappedBy = "roles")
-    private Set<User> userSet;
+    private Set<Account> userSet;
 }
