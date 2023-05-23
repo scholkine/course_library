@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.6</version>
+		<version>3.0.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ua.com</groupId>
-	<artifactId>course_library</artifactId>
+	<groupId>ua.com.shop_course_371</groupId>
+	<artifactId>shop_course_371</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>course_library</name>
-	<description>course_library</description>
+	<name>shop_course_371</name>
+	<description>shop_course_371</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -56,8 +56,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework</groupId>-->
+<!--			<artifactId>spring-context</artifactId>-->
+<!--			<version>6.0.4</version>-->
+<!--		</dependency>-->
 
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
